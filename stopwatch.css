@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    padding: 5rem;
+    background-color: beige;
+}
+h1{
+    font-size: 50px;
+}
+.timer{
+    font-size: 10rem;
+}
+.time{
+    font-size: 2rem;
+}
+.buttons{
+    margin: 2rem 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button{
+   
+    font-size: larger;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.start{
+    background-color: rgb(82, 179, 82);
+}
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: rgb(217, 217, 62);
+}
